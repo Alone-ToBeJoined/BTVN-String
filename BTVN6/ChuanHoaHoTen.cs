@@ -15,7 +15,7 @@ namespace BTVN6
             string normalizedName = normalizeName(wrongName);
             Console.WriteLine(normalizedName);
         }
-        static string normalizedName(string name)
+        static string normalizeName(string name)
         { 
             //chuyển tất cả các chữ cái thành chữ thường
             name = name.ToLower();
